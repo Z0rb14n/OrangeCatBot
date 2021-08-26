@@ -1,0 +1,14 @@
+{
+  "name": "OrangeCatBot",
+  "version": "0.0.0",
+  "description": "OrangeCatBot",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.3.0"
+  }
+}
