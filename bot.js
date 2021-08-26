@@ -2,6 +2,7 @@
 // @ts-check
 const Discord = require("discord.js");
 const config = require("./config.json");
+const private_config = require("./private_config.json");
 const ffmpeg = require("ffmpeg");
 
 class OrangeCatBot {
@@ -49,7 +50,7 @@ class OrangeCatBot {
      * @returns {void}
      */
     login() {
-        this.client.login(config.token);
+        this.client.login(private_config.token);
     }
 
     /**
