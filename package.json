@@ -2,13 +2,24 @@
   "name": "OrangeCatBot",
   "version": "0.0.0",
   "description": "OrangeCatBot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
   "author": {
     "name": ""
   },
   "dependencies": {
-    "@discordjs/opus": "^0.5.0",
+    "@discordjs/opus": "^0.5.3",
     "discord.js": "^12.5.3",
     "ffmpeg": "0.0.4",
-    "ffmpeg-static": "^4.3.0"
+    "ffmpeg-static": "^4.3.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "typescript": "^4.7.4",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "@types/ffmpeg": "^1.0.4"
   }
 }
